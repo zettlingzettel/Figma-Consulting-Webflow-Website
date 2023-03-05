@@ -1,5 +1,7 @@
 import React from 'react'
 
+import HomePage1NavBar from './HomePage1NavBar'
+
 const HomePage1 = () => {
 
 
@@ -11,7 +13,9 @@ const HomePage1 = () => {
 
 
   return (
-    <div>HomePage1</div>
+    <div>HomePage1
+      <HomePage1NavBar />
+    </div>
   )
 }
 
